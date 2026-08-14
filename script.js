@@ -18,9 +18,27 @@
 
 //logical
 
-let uniform=true;
-let ID =  false;
-let textbook = true;
+// let uniform=true;
+// let ID =  false;
+// let textbook = true;
 
-console.log(uniform && ID)
-console.log()
+// console.log(uniform && ID && textbook)
+// console.log(uniform || ID || textbook)
+// console.log((uniform && ID) || textbook)
+
+// // unary
+// console.log(++a);
+// console.log(--a);
+
+let age = 45;
+let vote = age < 18 ? "you can vote" : "you cannot vote";
+
+console.log(vote);
+
+// prompt and alert
+alert("Hello Everyone");
+alert("Jesus is king");
+
+let newage = prompt("Enter your age");
+let newvote = newage >= 18 ? "you can vote" :"You cannot vote";
+// alert(newvote);
