@@ -41,4 +41,4 @@ alert("Jesus is king");
 
 let newage = prompt("Enter your age");
 let newvote = newage >= 18 ? "you can vote" :"You cannot vote";
-// alert(newvote);
+// alert(newvote); 
