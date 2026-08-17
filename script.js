@@ -194,17 +194,28 @@
 
 
 // write a loop that prints out the multiplication table from one to twelve 1x12 to 20x12
-for(a =1; a <=20; a++) {
-    for (b = 1; b <= 12; b++) {
-        let c = `${a} x ${b} = ${a * b}`;
-        console.log(c)
-    }
+// for(a =1; a <=20; a++) {
+//     for (b = 1; b <= 12; b++) {
+//         let c = `${a} x ${b} = ${a * b}`;
+//         console.log(c)
+//     }
+// }
+
+
+// functions in js
+// function username(myName){
+//     console.log(myName);
+// }
+
+// username("victory")
+
+// 2nd option
+const username = (yourname) => {
+    console.log(yourname);
 }
 
 
-
-
-
+username("jennifer")
 
 
 
