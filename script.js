@@ -30,10 +30,10 @@
 // console.log(++a);
 // console.log(--a);
 
-let age = 45;
-let vote = age < 18 ? "you can vote" : "you cannot vote";
+// let age = 45;
+// let vote = age < 18 ? "you can vote" : "you cannot vote";
 
-console.log(vote);
+// console.log(vote);
 
 // prompt and alert
 // alert("Hello Everyone");
@@ -112,21 +112,19 @@ console.log(vote);
 
 // write a program that calculates the ticket price based on age with the following conditions: age below 12 pay a ticket price of 5, age below 18 pay a ticket price of 10, age below 60 pay a ticket price of 20, age over 60 play a ticket price of 15.
 
-const Age =parseInt(prompt("Please Enter Your Age"))
+// const Age =parseInt(prompt("Please Enter Your Age"))
 
-if( Age < 12){
-    alert(`Since your Age ${Age} is less 12 your ticket price is N5`);
-} else if (Age < 18){
-    alert(`Since your Age ${Age} is less 18 your ticket price is N10`);
-} else if(Age < 60){
-    alert(`Since your Age ${Age} is less 60 your ticket price is N20`);
-} else if (Age < 1) {
-        alert("Age can't be negative value");
-} else if(isNaN(Age)){
-    alert(`${Age} can't be a letter`);
-} else{
-    alert(`Since your Age ${Age} is  60 and above your ticket price is N15`);
-}
+// if( Age < 12){
+//     alert(`Since your Age ${Age} is less 12 your ticket price is N5`);
+// } else if (Age < 18){
+//     alert(`Since your Age ${Age} is less 18 your ticket price is N10`);
+// } else if(Age < 60){
+//     alert(`Since your Age ${Age} is less 60 your ticket price is N20`);
+// } else if(isNaN(Age)){
+//     alert(`${Age} can't be a letter`);
+// } else{
+//     alert(`Since your Age ${Age} is  60 and above your ticket price is N15`);
+// }
  
         
 
@@ -136,31 +134,72 @@ if( Age < 12){
 
 //  Write a program that calculates a discount based on the purchase amount.Prices equal or over 100 have a discount of 20. Prices equal or over 50 have a discount of 10. Otherwise discount is 0
 
-let ProductPrice =parseInt(prompt("Enter the Product Price"))
-if ( ProductPrice < 0){
-    alert(`Your Product Price  ${ProductPrice} can't be less than 0`)
+// let ProductPrice =parseInt(prompt("Enter the Product Price"))
+// if ( ProductPrice < 0){
+//     alert(`Your Product Price  ${ProductPrice} can't be less than 0`)
 
-}else if(ProductPrice <=99){
-    alert(`Your Product Price is ${ProductPrice} and you are eligible to 10% discount`)
-}else if(ProductPrice >= 100){
-    alert(`Your Product Price is ${ProductPrice} and you are eligible to 20% discount`)
-}else if(isNaN(ProductPrice)){
-    alert( `Product Price is invalid`)
-}else{
-    alert(`Your Product Price  ${ProductPrice} you have 0% discount`)
+// }else if(ProductPrice <=99){
+//     alert(`Your Product Price is ${ProductPrice} and you are eligible to 10% discount`)
+// }else if(ProductPrice >= 100){
+//     alert(`Your Product Price is ${ProductPrice} and you are eligible to 20% discount`)
+// }else if(isNaN(ProductPrice)){
+//     alert( `Product Price is invalid`)
+// }else{
+//     alert(`Your Product Price  ${ProductPrice} you have 0% discount`)
+// }
+
+
+// // Loops
+// for (let num = 1; num <= 20; num++){
+//     console.log(num);
+// }
+  
+// // while
+// let b = 1;
+// while(b <=50){
+//     console.log(b);
+    //   b++;
+// } 
+
+
+// // do while
+// let c= 10;
+// do{
+//     console.log(c);
+//     c++;
+// } while (c <= 20);
+
+
+// // show only odd numbers
+// for(let a= 1; a <= 50; a++){
+//     if(a % 2=== 1) {
+//         console.log(a);
+//     }
+// }
+
+// show only even numbers
+// for(let a= 1; a <= 50; a++){
+//     if(a % 2=== 0) {
+//         console.log(a);
+//     }
+// }
+
+
+// write a loop that prints out the 2 times multiplication table from 2x1 to 2x20
+
+// for ( a = 1; a <= 20; a++) {
+//     let b = `2 x ${a} = $(a * 2)`;
+//     console.log(b);
+// }
+
+
+// write a loop that prints out the multiplication table from one to twelve 1x12 to 20x12
+for(a =1; a <=20; a++) {
+    for (b = 1; b <= 12; b++) {
+        let c = `${a} x ${b} = ${a * b}`;
+        console.log(c)
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
