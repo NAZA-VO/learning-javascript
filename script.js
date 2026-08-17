@@ -49,25 +49,137 @@ console.log(vote);
 // alert(a + b)
 
 
-// conditionals
-if (5 > 7) {console.log("5 is the greatest number");
+// // conditionals
+// if (5 > 7) {console.log("5 is the greatest number");
+// } else{
+//     console.log("7 is the greatest number");
+// }
+
+
+// let num = 5;
+// if(num > 5){
+//     console.log("Round to 1");
+// } else if (num == 4) {
+//     console.log("round to 1");
+// } else{
+// console.log("round to zero");
+// }
+
+
+
+// // template literal
+// let userAccess = prompt("what are you wearing");
+// if (userAccess === "shoe") {
+//     alert("you can enter");
+// } else if (userAccess === "sandals"){
+//     alert("you can enter with your sandals");
+// } else if (userAccess === "injury"){
+//     alert ("you can enter");
+// } else {
+//     alert("you cannot enter")
+// }
+
+
+
+
+
+//  write a prompt that tells a user if they are eligble to vote
+
+// const userAge = parseInt(prompt("enter your age"));
+// if (userAge > 18){
+//     alert(`your age is ${userAge} and you can vote`);
+// } else if(userAge < 1){
+//     alert ("Age can't be negative value");
+// } else if (isNaN(userAge)) {
+//     alert ("you can only enter a number");
+// } else{
+//     alert(`sorry are ${userAge} and you are not eligible to vote`);
+// }
+
+
+// wrie a program that determine the greater of three numbers
+// const numOne = parseInt(prompt("Enter your first number"));
+// const numTwo = parseInt(prompt("Enter ypur second number"));
+// const numThree = parseInt(prompt("Enter your Third number"));
+
+// if (numOne > numTwo && numThree){
+//     alert(`${numOne} is the greatest number`);
+// } else if (numTwo > numOne && numThree) {
+//     alert(`${numTwo} is the greatest number`);
+// } else if (numThree == numTwo && numOne) {
+//     alert("The numbers are equal")
+// }
+
+// write a program that calculates the ticket price based on age with the following conditions: age below 12 pay a ticket price of 5, age below 18 pay a ticket price of 10, age below 60 pay a ticket price of 20, age over 60 play a ticket price of 15.
+
+const Age =parseInt(prompt("Please Enter Your Age"))
+
+if( Age < 12){
+    alert(`Since your Age ${Age} is less 12 your ticket price is N5`);
+} else if (Age < 18){
+    alert(`Since your Age ${Age} is less 18 your ticket price is N10`);
+} else if(Age < 60){
+    alert(`Since your Age ${Age} is less 60 your ticket price is N20`);
+} else if (Age < 1) {
+        alert("Age can't be negative value");
+} else if(isNaN(Age)){
+    alert(`${Age} can't be a letter`);
 } else{
-    console.log("7 is the greatest number");
+    alert(`Since your Age ${Age} is  60 and above your ticket price is N15`);
+}
+ 
+        
+
+
+
+
+
+//  Write a program that calculates a discount based on the purchase amount.Prices equal or over 100 have a discount of 20. Prices equal or over 50 have a discount of 10. Otherwise discount is 0
+
+let ProductPrice =parseInt(prompt("Enter the Product Price"))
+if ( ProductPrice < 0){
+    alert(`Your Product Price  ${ProductPrice} can't be less than 0`)
+
+}else if(ProductPrice <=99){
+    alert(`Your Product Price is ${ProductPrice} and you are eligible to 10% discount`)
+}else if(ProductPrice >= 100){
+    alert(`Your Product Price is ${ProductPrice} and you are eligible to 20% discount`)
+}else if(isNaN(ProductPrice)){
+    alert( `Product Price is invalid`)
+}else{
+    alert(`Your Product Price  ${ProductPrice} you have 0% discount`)
 }
 
 
-let num = 5;
-if(num > 5){
-    alert("Round to 1");
-} else if (num == 5) {
-    alert("round to 1");
-} else{
-alert("round to zero");
-
-}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
